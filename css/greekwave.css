@@ -1,0 +1,540 @@
+.maincontainer {
+	height: 300px;
+	width: 100%;
+	position: relative;
+	margin-top: 40px;
+	background-image: url(../images/sky.png);
+}
+
+#whitewave {
+	background-image: url(../images/whiteWave.png);
+	background-repeat: repeat;
+	background-attachment: scroll;
+	height: 90px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+
+#bluewave {
+	background-image: url(../images/blueWave.png);
+	background-repeat: repeat;
+	background-attachment: scroll;
+	height: 70px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+
+#whitewave2 {
+	background-image: url(../images/whiteWave2.png);
+	background-repeat: repeat;
+	background-attachment: scroll;
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	bottom: 55px;
+}
+
+#bluewave2 {
+	background-image: url(../images/blueWave2.png);
+	background-repeat: repeat;
+	background-attachment: scroll;
+	height: 110px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+
+#sky1 {
+	background-image: url(../images/sky1.png);
+	background-repeat: repeat;
+	background-attachment: scroll;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+#sky2 {
+	background-image: url(../images/sky2.png);
+	background-repeat: repeat;
+	background-attachment: scroll;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+#sky3 {
+	background-image: url(../images/sky3.png);
+	background-repeat: repeat;
+	background-attachment: scroll;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+#dolphin {
+	background-attachment: scroll;
+	background-image: url(../images/dolphin.png);
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 80px;
+	position: absolute;
+	left: 250px;
+	top: 150px;
+}
+
+#dolphin2 {
+	background-attachment: scroll;
+	background-image: url(../images/dolphin.png);
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 80px;
+	position: absolute;
+	left: 800px;
+	top: 120px;
+}
+
+#dolphin3 {
+	background-attachment: scroll;
+	background-image: url(../images/dolphin.png);
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 80px;
+	position: absolute;
+	left: 1000px;
+	top: 150px;
+}
+
+/*#boat {
+	height: 119px;
+	width: 150px;
+	position: absolute;
+	top: 150px;
+	left: 500px;
+	background-image: url(../images/boat.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}*/
+
+
+.oar1{
+	height: 50px;
+	width: 60px;
+	position: absolute;
+	left: 58px;
+	top: 110px;
+	-moz-animation: rowing-oar1 2s infinite;
+	-webkit-animation: rowing-oar1 2s infinite;
+	-ms-animation: rowing-oar1 2s infinite;
+}
+
+.oar2{
+	height: 50px;
+	width: 60px;
+	position: absolute;
+	left: 82px;
+	top: 110px;
+	-moz-animation: rowing-oar2 2s infinite;
+	-webkit-animation: rowing-oar2 2s infinite;
+	-ms-animation: rowing-oar2 2s infinite;
+}
+
+.oar3{
+	height: 50px;
+	width: 60px;
+	position: absolute;
+	left: 103px;
+	top: 110px;
+	-moz-animation: rowing-oar3 2s infinite;
+	-webkit-animation: rowing-oar3 2s infinite;
+	-ms-animation: rowing-oar3 2s infinite;
+}
+
+.oar4{
+	height: 50px;
+	width: 60px;
+	position: absolute;
+	left: 125px;
+	top: 110px;
+	-moz-animation: rowing-oar4 2s infinite;
+	-webkit-animation: rowing-oar4 2s infinite;
+	-ms-animation: rowing-oar4 2s infinite;
+}
+
+
+.boat {
+	height: 150px;
+	width: 200px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	top: 105px;
+	-moz-animation: rowboat 5s infinite;
+	-webkit-animation: rowboat 5s infinite;
+	-ms-animation: rowboat 5s infinite;
+}
+
+
+@-moz-keyframes rowboat {
+	0% {
+        -moz-transform: rotate(0deg) translateX(-30px);
+		-moz-animation-timing-function: ease;
+    }
+    25% {
+        -moz-transform: rotate(5deg) translateX(-60px);
+		-moz-animation-timing-function: ease;
+    }
+    50% {
+        -moz-transform: rotate(-3deg) translateX(-90px);
+		-moz-animation-timing-function: ease;
+    }
+    75% {
+        -moz-transform: rotate(3deg) translateX(-120px);
+		-moz-animation-timing-function: ease;
+    }
+    100% {
+        -moz-transform: rotate(0deg) translateX(-150px);
+		-moz-animation-timing-function: ease;
+	}
+}
+
+@-moz-keyframes rowing-oar1 {
+    0% {
+        -moz-transform: rotate(0deg) translate(0px,0px);
+    }
+  	15% {
+        -moz-transform: rotate(15deg) translate(-2px,8px);
+	}
+	30% {
+        -moz-transform: rotate(30deg) translate(-3px,16px);
+	}
+	45% {
+        -moz-transform: rotate(45deg) translate(-4px,24px);
+	}
+	60% {
+        -moz-transform: rotate(60deg) translate(-6px,33px);
+	}
+	75% {
+        -moz-transform: rotate(90deg) translate(3px,45px);
+	}
+    100% {
+        -moz-transform: rotate(0deg) translate(0px,0px);
+	}
+}
+
+
+@-moz-keyframes rowing-oar2 {
+	    0% {
+        -moz-transform: rotate(0deg) translate(0px,0px);
+    }
+  	15% {
+        -moz-transform: rotate(15deg) translate(-2px,8px);
+	}
+	30% {
+        -moz-transform: rotate(30deg) translate(-3px,16px);
+	}
+	45% {
+        -moz-transform: rotate(45deg) translate(-4px,24px);
+	}
+	60% {
+        -moz-transform: rotate(60deg) translate(-6px,33px);
+	}
+	75% {
+        -moz-transform: rotate(90deg) translate(3px,45px);
+	}
+    100% {
+        -moz-transform: rotate(0deg) translate(0px,0px);
+	}
+}
+@-moz-keyframes rowing-oar3 {
+	    0% {
+        -moz-transform: rotate(0deg) translate(0px,0px);
+    }
+  	15% {
+        -moz-transform: rotate(15deg) translate(-2px,8px);
+	}
+	30% {
+        -moz-transform: rotate(30deg) translate(-3px,16px);
+	}
+	45% {
+        -moz-transform: rotate(45deg) translate(-4px,24px);
+	}
+	60% {
+        -moz-transform: rotate(60deg) translate(-6px,33px);
+	}
+	75% {
+        -moz-transform: rotate(90deg) translate(3px,45px);
+	}
+    100% {
+        -moz-transform: rotate(0deg) translate(0px,0px);
+	}
+}
+
+@-moz-keyframes rowing-oar4 {
+    0% {
+        -moz-transform: rotate(0deg) translate(0px,0px);
+    }
+  	15% {
+        -moz-transform: rotate(15deg) translate(-2px,8px);
+	}
+	30% {
+        -moz-transform: rotate(30deg) translate(-3px,16px);
+	}
+	45% {
+        -moz-transform: rotate(45deg) translate(-4px,24px);
+	}
+	60% {
+        -moz-transform: rotate(60deg) translate(-6px,33px);
+	}
+	75% {
+        -moz-transform: rotate(90deg) translate(3px,45px);
+	}
+    100% {
+        -moz-transform: rotate(0deg) translate(0px,0px);
+	}
+}
+
+@-webkit-keyframes rowboat {
+	0% {
+        -webkit-transform: rotate(0deg) translateX(-30px);
+		-webkit-animation-timing-function: ease;
+    }
+    25% {
+        -webkit-transform: rotate(5deg) translateX(-60px);
+		-webkit-animation-timing-function: ease;
+    }
+    50% {
+        -webkit-transform: rotate(-3deg) translateX(-90px);
+		-webkit-animation-timing-function: ease;
+    }
+    75% {
+        -webkit-transform: rotate(3deg) translateX(-120px);
+		-webkit-animation-timing-function: ease;
+    }
+    100% {
+        -webkit-transform: rotate(0deg) translateX(-150px);
+		-webkit-animation-timing-function: ease;
+	}
+}
+
+@-webkit-keyframes rowing-oar1 {
+    0% {
+        -webkit-transform: rotate(0deg) translate(0px,0px);
+    }
+  	15% {
+        -webkit-transform: rotate(15deg) translate(-2px,8px);
+	}
+	30% {
+        -webkit-transform: rotate(30deg) translate(-3px,16px);
+	}
+	45% {
+        -webkit-transform: rotate(45deg) translate(-4px,24px);
+	}
+	60% {
+        -webkit-transform: rotate(60deg) translate(-6px,33px);
+	}
+	75% {
+        -webkit-transform: rotate(90deg) translate(3px,45px);
+	}
+    100% {
+        -webkit-transform: rotate(0deg) translate(0px,0px);
+	}
+}
+
+@-webkit-keyframes rowing-oar2 {
+	    0% {
+        -webkit-transform: rotate(0deg) translate(0px,0px);
+    }
+  	15% {
+        -webkit-transform: rotate(15deg) translate(-2px,8px);
+	}
+	30% {
+        -webkit-transform: rotate(30deg) translate(-3px,16px);
+	}
+	45% {
+        -webkit-transform: rotate(45deg) translate(-4px,24px);
+	}
+	60% {
+        -webkit-transform: rotate(60deg) translate(-6px,33px);
+	}
+	75% {
+        -webkit-transform: rotate(90deg) translate(3px,45px);
+	}
+    100% {
+        -webkit-transform: rotate(0deg) translate(0px,0px);
+	}
+}
+
+@-webkit-keyframes rowing-oar3 {
+	    0% {
+        -webkit-transform: rotate(0deg) translate(0px,0px);
+    }
+  	15% {
+        -webkit-transform: rotate(15deg) translate(-2px,8px);
+	}
+	30% {
+        -webkit-transform: rotate(30deg) translate(-3px,16px);
+	}
+	45% {
+        -webkit-transform: rotate(45deg) translate(-4px,24px);
+	}
+	60% {
+        -webkit-transform: rotate(60deg) translate(-6px,33px);
+	}
+	75% {
+        -webkit-transform: rotate(90deg) translate(3px,45px);
+	}
+    100% {
+        -webkit-transform: rotate(0deg) translate(0px,0px);
+	}
+}
+
+@-webkit-keyframes rowing-oar4 {
+    0% {
+        -webkit-transform: rotate(0deg) translate(0px,0px);
+    }
+  	15% {
+        -webkit-transform: rotate(15deg) translate(-2px,8px);
+	}
+	30% {
+        -webkit-transform: rotate(30deg) translate(-3px,16px);
+	}
+	45% {
+        -webkit-transform: rotate(45deg) translate(-4px,24px);
+	}
+	60% {
+        -webkit-transform: rotate(60deg) translate(-6px,33px);
+	}
+	75% {
+        -webkit-transform: rotate(90deg) translate(3px,45px);
+	}
+    100% {
+        -webkit-transform: rotate(0deg) translate(0px,0px);
+	}
+}
+
+@-ms-keyframes rowboat {
+	0% {
+        -ms-transform: rotate(0deg) translateX(-30px);
+		-ms-animation-timing-function: ease;
+    }
+    25% {
+        -ms-transform: rotate(5deg) translateX(-60px);
+		-ms-animation-timing-function: ease;
+    }
+    50% {
+        -ms-transform: rotate(-3deg) translateX(-90px);
+		-ms-animation-timing-function: ease;
+    }
+    75% {
+        -ms-transform: rotate(3deg) translateX(-120px);
+		-ms-animation-timing-function: ease;
+    }
+    100% {
+        -ms-transform: rotate(0deg) translateX(-150px);
+		-ms-animation-timing-function: ease;
+	}
+}
+
+@-ms-keyframes rowing-oar1 {
+    0% {
+        -ms-transform: rotate(0deg) translate(0px,0px);
+    }
+  	15% {
+        -ms-transform: rotate(15deg) translate(-2px,8px);
+	}
+	30% {
+        -ms-transform: rotate(30deg) translate(-3px,16px);
+	}
+	45% {
+        -ms-transform: rotate(45deg) translate(-4px,24px);
+	}
+	60% {
+        -ms-transform: rotate(60deg) translate(-6px,33px);
+	}
+	75% {
+        -ms-transform: rotate(90deg) translate(3px,45px);
+	}
+    100% {
+        -ms-transform: rotate(0deg) translate(0px,0px);
+	}
+}
+
+
+@-ms-keyframes rowing-oar2 {
+	    0% {
+        -ms-transform: rotate(0deg) translate(0px,0px);
+    }
+  	15% {
+        -ms-transform: rotate(15deg) translate(-2px,8px);
+	}
+	30% {
+        -ms-transform: rotate(30deg) translate(-3px,16px);
+	}
+	45% {
+        -ms-transform: rotate(45deg) translate(-4px,24px);
+	}
+	60% {
+        -ms-transform: rotate(60deg) translate(-6px,33px);
+	}
+	75% {
+        -ms-transform: rotate(90deg) translate(3px,45px);
+	}
+    100% {
+        -ms-transform: rotate(0deg) translate(0px,0px);
+	}
+}
+
+@-ms-keyframes rowing-oar3 {
+	    0% {
+        -ms-transform: rotate(0deg) translate(0px,0px);
+    }
+  	15% {
+        -ms-transform: rotate(15deg) translate(-2px,8px);
+	}
+	30% {
+        -ms-transform: rotate(30deg) translate(-3px,16px);
+	}
+	45% {
+        -ms-transform: rotate(45deg) translate(-4px,24px);
+	}
+	60% {
+        -ms-transform: rotate(60deg) translate(-6px,33px);
+	}
+	75% {
+        -ms-transform: rotate(90deg) translate(3px,45px);
+	}
+    100% {
+        -ms-transform: rotate(0deg) translate(0px,0px);
+	}
+}
+
+@-ms-keyframes rowing-oar4 {
+    0% {
+        -ms-transform: rotate(0deg) translate(0px,0px);
+    }
+  	15% {
+        -ms-transform: rotate(15deg) translate(-2px,8px);
+	}
+	30% {
+        -ms-transform: rotate(30deg) translate(-3px,16px);
+	}
+	45% {
+        -ms-transform: rotate(45deg) translate(-4px,24px);
+	}
+	60% {
+        -ms-transform: rotate(60deg) translate(-6px,33px);
+	}
+	75% {
+        -ms-transform: rotate(90deg) translate(3px,45px);
+	}
+    100% {
+        -ms-transform: rotate(0deg) translate(0px,0px);
+	}
+}
